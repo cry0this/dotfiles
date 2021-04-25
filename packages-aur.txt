@@ -1,1 +1,2 @@
+arc-kde
 nerd-fonts-source-code-pro
