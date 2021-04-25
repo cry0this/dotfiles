@@ -31,12 +31,22 @@ __prompt_command() {
 
 }
 
-
 PS2='> '
 
 HISTTIMEFORMAT="%F:%T "
 
 PATH="$HOME/.local/bin:$PATH"
+
+case ${TERM} in
+        xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)
+                PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
+                ;;
+        screen*)
+                PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
+                ;;
+esac
+
+use_color=true
 
 alias ls='ls --color=auto'
 alias ll='ls -laFh --color=auto'
@@ -44,3 +54,12 @@ alias ll='ls -laFh --color=auto'
 source /usr/share/doc/pkgfile/command-not-found.bash
 shopt -s checkwinsize
 
+alias kill-wine='ps aux | grep -iE "(\.exe|wine)" | grep -v grep | awk "{print \$2}" | xargs -I{} kill -9 {}'
+alias vim='nvim'
+
+export XDG_CACHE_HOME=/tmp
+export XDEBUG_CONFIG="idekey=PHPSTORM"
+export XDG_CONFIG_HOME=~/.config
+export GOPATH="$HOME/.local/go"
+
+neofetch
