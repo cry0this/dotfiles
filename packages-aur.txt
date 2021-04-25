@@ -1,2 +1,3 @@
 arc-kde
 nerd-fonts-source-code-pro
+picom-jonaburg-git

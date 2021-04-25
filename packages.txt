@@ -13,13 +13,14 @@ btrfs-progs
 docker
 docker-compose
 dosfstools
+dunst
 efibootmgr
 fakeroot
 firefox
 firefox-i18n-ru
 flex
 gcc
-git
+gimp
 grub-btrfs
 gvfs
 kvantum-qt5
@@ -53,8 +54,10 @@ sudo
 terminus-font
 texinfo
 tmux
+wget
 which
 xdg-user-dirs
 xf86-video-amdgpu
 xf86-video-ati
 xorg-server
+xorg-xwininfo

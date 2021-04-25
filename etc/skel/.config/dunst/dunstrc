@@ -1,0 +1,45 @@
+[global]
+    monitor = 0
+    follow = none
+    geometry = 400x3-760+50
+    indicate_hidden = true
+    shrink = false
+    transparency = 15
+    notification_height = 0
+    separator_height = 3
+    padding = 5
+    horizontal_padding = 5
+    frame_width = 3
+    frame_color = "#0C97E1"
+    separator_color = auto
+    sort = true
+    idle_threshold = 120
+    font = Noto Sans 10
+    markup = full
+    format = "%a\n%s %p\n%b"
+    alignment = center
+    vertical_alignment = center
+    show_age_threshold = 60
+    word_wrap = false
+    icon_position = left
+    max_icon_size = 128
+    icon_path = /usr/share/icons/Papirus-Dark/16x16/status/:/usr/share/icons/Papirus-Dark/16x16/devices
+    startup_notification = true
+    corner_radius = 8
+
+[urgency_low]
+    # IMPORTANT: colors have to be defined in quotation marks.
+    # Otherwise the "#" and following would be interpreted as a comment.
+    background = "#222A37"
+    foreground = "#FFFFFF"
+    timeout = 15
+
+[urgency_normal]
+    background = "#222A37"
+    foreground = "#FFFFFF"
+    timeout = 15
+
+[urgency_critical]
+    background = "#561A20"
+    foreground = "#FFFFFF"
+    timeout = 0
