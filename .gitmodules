@@ -1,0 +1,3 @@
+[submodule "etc/skel/.tmux-themepack"]
+	path = etc/skel/.tmux-themepack
+	url = https://github.com/jimeh/tmux-themepack.git

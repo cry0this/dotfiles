@@ -2,6 +2,7 @@ alacritty
 amd-ucode
 arandr
 base 
+base-devel
 bash-completion 
 btrfs-progs 
 dosfstools 
@@ -30,9 +31,4 @@ texinfo
 xf86-video-amdgpu 
 xf86-video-ati 
 xorg-server 
-
-# chaotic-aur
-chaotic-keyring
-preload
-yay
 
