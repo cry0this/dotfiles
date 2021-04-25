@@ -186,7 +186,7 @@ colors:
   normal:
     black:   '0x1d1f21'
     red:     '0xcc342b'
-    green:   '0x198844'
+    green:   '0x1fbb5c'
     yellow:  '0xfba922'
     blue:    '0x3971ed'
     magenta: '0xa36ac7'
@@ -197,7 +197,7 @@ colors:
   bright:
     black:   '0x969896'
     red:     '0xcc342b'
-    green:   '0x198844'
+    green:   '0x1bbe5a'
     yellow:  '0xfba922'
     blue:    '0x3971ed'
     magenta: '0xa36ac7'
