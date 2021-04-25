@@ -2,6 +2,7 @@ alacritty
 amd-ucode
 arandr
 arc-gtk-theme
+archlinux-xdg-menu
 autoconf
 automake
 base
@@ -20,6 +21,7 @@ flex
 gcc
 git
 grub-btrfs
+gvfs
 kvantum-qt5
 lightdm
 lightdm-gtk-greeter
@@ -42,6 +44,7 @@ noto-fonts-emoji
 openssh
 papirus-icon-theme
 patch
+pcmanfm
 pkgconf
 pkgfile
 qt5ct
@@ -51,6 +54,7 @@ terminus-font
 texinfo
 tmux
 which
+xdg-user-dirs
 xf86-video-amdgpu
 xf86-video-ati
 xorg-server
