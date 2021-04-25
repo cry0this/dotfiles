@@ -1,0 +1,9 @@
+# NL | By: Var Bhat
+Server = https://nl-mirror.chaotic.cx/$repo/$arch
+# ES | By: JKANetwork
+Server = https://es-mirror.chaotic.cx/$repo/$arch
+# DE | By: Nico
+Server = https://de-1-mirror.chaotic.cx/$repo/$arch
+# BE | By: Belnet (the Belgian Education and Research Network)
+Server = https://be-bru-mirror.chaotic.cx/$repo/$arch
+
