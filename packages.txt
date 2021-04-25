@@ -4,9 +4,9 @@ arandr
 base 
 bash-completion 
 btrfs-progs 
-chaotic-keyring
 dosfstools 
 efibootmgr 
+fakeroot
 firefox 
 firefox-i18n-ru 
 git 
@@ -23,9 +23,16 @@ neovim
 networkmanager 
 networkmanager-openvpn 
 openssh 
+pkgfile
 qtile 
 sudo 
 texinfo 
 xf86-video-amdgpu 
 xf86-video-ati 
 xorg-server 
+
+# chaotic-aur
+chaotic-keyring
+preload
+yay
+
