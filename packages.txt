@@ -57,6 +57,7 @@ pavucontrol
 pcmanfm
 pkgconf
 pkgfile
+playerctl
 qt5ct
 qtile
 scrot
@@ -66,6 +67,7 @@ telegram-desktop
 terminus-font
 texinfo
 tmux
+viewnior
 wget
 which
 xdg-user-dirs
