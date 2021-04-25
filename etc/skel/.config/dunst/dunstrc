@@ -4,7 +4,7 @@
     geometry = 400x3-760+50
     indicate_hidden = true
     shrink = false
-    transparency = 30
+    transparency = 20
     notification_height = 0
     separator_height = 3
     padding = 5
@@ -16,7 +16,7 @@
     idle_threshold = 120
     font = Noto Sans 10
     markup = full
-    format = "%a\n%s %p\n%b"
+    format = "%s %p\n%b"
     alignment = center
     vertical_alignment = center
     show_age_threshold = 60

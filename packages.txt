@@ -10,6 +10,7 @@ bash-completion
 binutils
 bison
 btrfs-progs
+discord
 docker
 docker-compose
 dosfstools
@@ -23,7 +24,12 @@ gcc
 gimp
 grub-btrfs
 gvfs
+icedtea-web
+jack2
+jre8-openjdk
 kvantum-qt5
+libreoffice-fresh
+libreoffice-fresh-ru
 lightdm
 lightdm-gtk-greeter
 linux-firmware
@@ -37,6 +43,7 @@ man-pages
 mate-polkit
 neofetch
 neovim
+network-manager-applet
 networkmanager
 networkmanager-openvpn
 nitrogen
@@ -44,13 +51,18 @@ noto-fonts-cjk
 noto-fonts-emoji
 openssh
 papirus-icon-theme
+parcellite
 patch
+pavucontrol
 pcmanfm
 pkgconf
 pkgfile
 qt5ct
 qtile
+scrot
+smplayer
 sudo
+telegram-desktop
 terminus-font
 texinfo
 tmux

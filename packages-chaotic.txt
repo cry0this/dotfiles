@@ -1,5 +1,8 @@
 chaotic-keyring
 preload
+pulseaudio-support
+spotify
 timeshift
 timeshift-autosnap
+visual-studio-code-bin
 yay

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+FILE_NAME=scrot_$(date +"%Y-%m-%d_%H%M%S").jpg
+FILE_PATH=$HOME/Изображения/Screenshots
+if [[ ! -d $FILE_PATH ]]; then
+	mkdir $FILE_PATH
+fi
+scrot "$@" ${FILE_PATH}/${FILE_NAME}
+notify-send "Sreenshot captured ${FILE_NAME}"
