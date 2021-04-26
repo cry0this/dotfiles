@@ -112,7 +112,7 @@ for i in groups:
 # dropdown terminal
 groups.append(
     ScratchPad("scratchpad", [
-        DropDown("term", "alacritty", height=0.7, width=0.9, x=0.05), ],
+        DropDown("term", "alacritty", opacity=1, on_focus_lost_hide=False, height=0.7, width=0.9, x=0.05), ],
     )
 )
 keys.append(
