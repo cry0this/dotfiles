@@ -109,6 +109,16 @@ for i in groups:
              desc="move focused window to group {}".format(i.name)),
     ])
 
+# dropdown terminal
+groups.append(
+    ScratchPad("scratchpad", [
+        DropDown("term", "alacritty", height=0.7, width=0.9, x=0.05), ],
+    )
+)
+keys.append(
+    Key(["shift"], 'F12', lazy.group['scratchpad'].dropdown_toggle('term')),
+)
+
 layouts = [
     layout.Bsp(fair=True, border_focus="#2c6bfe",border_normal="#293144", border_width=3),
     layout.Max(),
