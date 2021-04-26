@@ -87,6 +87,8 @@ keys = [
     Key(["mod1"], "p", lazy.spawn("playerctl -p spotify play-pause"), desc="Toggle player"),
 
     Key([mod, "shift"], "m", lazy.spawn("pavucontrol"), desc="Open pulseaudio settings"),
+
+    Key(["mod1", "control"], "l", lazy.spawn("light-locker-command -l")),
 ]
 
 groups = [Group(i) for i in ['1','2','3','4','5','6','7','8','9','10']]
@@ -125,7 +127,7 @@ layouts = [
 
 widget_defaults = dict(
     font='Noto Sans',
-    fontsize=14,
+    fontsize=12,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -148,7 +150,7 @@ screens = [
                 widget.Clock(format='%Y-%m-%d %a %H:%M'),
                 widget.QuickExit(),
             ],
-            28,
+            30,
         ),
     ),
 ]

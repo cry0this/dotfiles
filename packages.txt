@@ -32,6 +32,7 @@ libreoffice-fresh
 libreoffice-fresh-ru
 lightdm
 lightdm-gtk-greeter
+light-locker
 linux-firmware
 linux-zen
 lvm2
